@@ -1,4 +1,4 @@
 
 # My Development Blog
 
-Uses the wintersmith static site generator
+Uses the [wintersmith](https://github.com/jnordberg/wintersmith) static site generator

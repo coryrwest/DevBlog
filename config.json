@@ -1,6 +1,6 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
+    "url": "http://corywestropp.com",
     "name": "Cory Westropp",
     "owner": "Cory Westropp",
     "description": "Collection of tips and tricks found during a journey of self-teaching"
@@ -22,5 +22,8 @@
   },
   "paginator": {
     "perPage": 5
-  }
+  },
+  "baseUrl": "/develop/",
+  "hostname": "localhost",
+  "port": "8080"
 }

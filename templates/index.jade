@@ -22,6 +22,6 @@ block prepend footer
     if prevPage
       a(href=prevPage.url) « Newer
     else
-      a(href='/archive.html') « Archives
+      a(href=contents.index.url+'archive.html') « Archives
     if nextPage
       a(href=nextPage.url) Next page »

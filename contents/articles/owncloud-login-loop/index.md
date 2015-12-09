@@ -1,7 +1,7 @@
 ---
-title: Fixing the Owncloud login loop
+title: Fixing the ownCloud login loop
 author: cory
-date: 2015-12-08 15:00
+date: 2015-11-14 15:00
 template: article.jade
 ---
 

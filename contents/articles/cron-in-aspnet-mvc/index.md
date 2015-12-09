@@ -5,7 +5,7 @@ date: 2012-08-01 15:00
 template: article.jade
 ---
 
-After much searching across the internet I have found no easy way to set up something similar to Cron Jobs in ASP.NET MVC. Such a simple thing that I would have thought someone solved already that is simple and easy-to-use. Now you may be thinking, “Hey, what about Quartz.Net”. And you are right, Quartz.Net does offer this functionality for the .NET framework. There are a couple problems that I found with Quartz.Net while working with it.
+After much searching across the internet I have found no easy way to set up something similar to Cron Jobs in ASP.NET MVC. Such a simple thing that I would have thought someone solved already that is simple and easy-to-use. Now you may be thinking, “Hey, what about Quartz.Net”. And you are right, [Quartz.Net](http://www.quartz-scheduler.net/) does offer this functionality for the .NET framework. There are a couple problems that I found with Quartz.Net while working with it.
 
 <span class="more"></span>
 

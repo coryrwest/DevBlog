@@ -81,11 +81,9 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
-  text-align: center;
   font-weight: 400;
   font-size: 1.4em;
-  margin-top: 1.8em;
+  margin-top: 1em;
   margin-bottom: 0.8em;
 }
 
@@ -437,6 +435,9 @@ code.lang-markdown .bullet {
   .content-wrap {
     width: auto;
     padding: 0 1em;
+  }
+  header div.content-wrap, footer div.content-wrap {
+	  width: auto;
   }
   .header {
     margin: 1em 0;

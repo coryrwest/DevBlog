@@ -5,6 +5,7 @@
   "private": "true",
   "scripts": {
       "build": "wintersmith build -c config.build.json",
+      "build": "wintersmith build -c config.ghpages.json",
       "start": "wintersmith preview"
   },
   "dependencies": {

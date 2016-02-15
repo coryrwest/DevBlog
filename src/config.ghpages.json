@@ -6,8 +6,10 @@
     "description": "Collection of tips and tricks found during a journey of self-teaching"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./src/plugins/paginator.coffee"
   ],
+  "contents": "./src/contents",
+  "templates": "./src/templates",
   "require": {
     "moment": "moment",
     "_": "underscore",
@@ -23,7 +25,7 @@
   "paginator": {
     "perPage": 5
   },
-  "baseUrl": "/develop/",
+  "baseUrl": "/DevBlog/",
   "hostname": "localhost",
   "port": "8080"
 }

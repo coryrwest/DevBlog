@@ -4,8 +4,8 @@
   "description": "My dev blog",
   "private": "true",
   "scripts": {
-      "build": "wintersmith build -c config.build.json",
-      "build": "wintersmith build -c config.ghpages.json",
+      "build": "wintersmith build -c src/config.build.json",
+      "gh-pages": "wintersmith build -c src/config.ghpages.json",
       "start": "wintersmith preview"
   },
   "dependencies": {

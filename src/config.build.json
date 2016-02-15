@@ -1,0 +1,31 @@
+{
+  "locals": {
+    "url": "http://corywestropp.com",
+    "name": "Cory Westropp",
+    "owner": "Cory Westropp",
+    "description": "Collection of tips and tricks found during a journey of self-teaching"
+  },
+  "plugins": [
+    "./src/plugins/paginator.coffee"
+  ],
+  "contents": "./src/contents",
+  "templates": "./src/templates",
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 5
+  },
+  "baseUrl": "/develop/",
+  "hostname": "localhost",
+  "port": "8080"
+}

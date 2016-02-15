@@ -25,7 +25,8 @@
   "paginator": {
     "perPage": 5
   },
-  "baseUrl": "/DevBlog/",
+  "baseUrl": "/",
   "hostname": "localhost",
-  "port": "8080"
+  "port": "8080",
+  "output": "./"
 }

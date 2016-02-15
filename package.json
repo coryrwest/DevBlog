@@ -6,7 +6,7 @@
   "scripts": {
       "build": "wintersmith build -c src/config.build.json",
       "gh-pages": "wintersmith build -c src/config.ghpages.json",
-      "start": "wintersmith preview"
+      "start": "wintersmith preview -c src/config.json"
   },
   "dependencies": {
     "moment": "2.3.x",

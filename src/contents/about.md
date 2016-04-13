@@ -12,6 +12,6 @@ forum posts, stack overflow posts, etc. that lead to a sepcific solution
 to a specific problem.
 
 At the time of writing the solution did not exist in one single place, 
-which is why I compiled it here. For east referencing later, usually by me.
+which is why I compiled it here. For easy referencing later, usually by me.
 
 [1]: http://corywestropp.com

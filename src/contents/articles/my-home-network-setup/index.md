@@ -22,7 +22,7 @@ Currently, I am hosting all of the services on an [ODRIOD U3](http://www.hardker
 
 ### Tim
 
-Tim is a [Raspberry Pi Model B](https://www.raspberrypi.org/products/model-b/). Because of its limited resource I only use this for tinkering and test setups that I will eventually move to Jarvis. I also have my router set up to port forward only to this machine. This limits the publically exposed surface of my network, but stsill allows me to access it from anywhere. This machine has the most security in place. 
+Tim is a [Raspberry Pi Model B](https://www.raspberrypi.org/products/model-b/). Because of its limited resource I only use this for tinkering and test setups that I will eventually move to Jarvis. I also have my router set up to port forward only to this machine. This limits the publically exposed surface of my network, but still allows me to access it from anywhere. This machine has the most security in place. 
 
 Eventually, I will be retiring this machine and putting a VPN on Jarvis which will act as the gatekeeper to the network. For now, I just jump to whatever machine I need to from here.
 

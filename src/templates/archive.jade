@@ -30,3 +30,7 @@ block content
                   each item in months[monthK]
                     li(style='height:'+ lineHeight + 'em;line-height:' + lineHeight + 'em')
                       a(href=item.url)= item.title
+
+block prepend footer
+  div.nav
+    a(href=contents.index.url) « Full blog

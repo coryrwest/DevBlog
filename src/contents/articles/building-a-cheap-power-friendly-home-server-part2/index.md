@@ -13,6 +13,7 @@ I had originally invisioned one server to rule them all. With one server there i
 
 *  [Part 1. The build](../building-a-cheap-power-friendly-home-server-part1)
 *  Part 2. The set up
+*  [Part 3. Some things I learned about Docker](../building-a-cheap-power-friendly-home-server-part3)
 
 # The layout
 

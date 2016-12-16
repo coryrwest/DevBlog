@@ -11,6 +11,7 @@ I have been running my home network system off of several Raspberry Pi's and an 
 
 *  Part 1. The build
 *  [Part 2. The set up](../building-a-cheap-power-friendly-home-server-part2)
+*  [Part 3. Some things I learned about Docker](../building-a-cheap-power-friendly-home-server-part3)
 
 Picking an OS
 -------------

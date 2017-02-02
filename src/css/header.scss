@@ -1,0 +1,45 @@
+// header/
+
+
+/* page header */
+
+.header {
+  margin: 3em 0 2em;
+  
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding: .3em;
+  }
+  
+  a, a:hover {
+    text-decoration: none;
+    color: #171717;
+  }
+  
+  .author {
+    text-rendering: auto;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: -0.3em;
+  }
+}
+
+body.article-detail > header {
+  margin-bottom: 3em;
+  
+  h1 {
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: -0.2em;
+  }
+}

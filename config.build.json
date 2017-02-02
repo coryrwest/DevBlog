@@ -1,6 +1,7 @@
 {
   "locals": {
     "url": "http://corywestropp.com",
+    "base": "/develop/",
     "name": "Cory Westropp",
     "owner": "Cory Westropp",
     "description": "Collection of tips and tricks found during a journey of self-teaching"

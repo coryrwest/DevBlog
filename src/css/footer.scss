@@ -1,0 +1,55 @@
+// footer/
+/* page footer */
+
+footer {
+  margin: 3em 0;
+  
+  .nav {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 3.5em;
+    
+    a {
+      padding: 0 0.5em;
+      font-size: 1.2em;
+      text-decoration: none;
+    }
+  }
+  
+  .about {
+    border-top: 4px double #ededed;
+    padding: 2.2em 3em;
+    font-size: 0.7em;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -ms-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    -ms-column-gap: 2em;
+    column-gap: 2em;
+    height: 8em;
+  }
+  
+  .copy {
+    font-size: 0.7em;
+    font-style: italic;
+    border-top: 1px solid #ededed;
+    clear: both;
+    color: #fff;
+    padding: 0.3571428571428571rem 0.7142857142857143rem;
+    background: url(../texture_bg.png) #1C1C1C;
+    
+    a {
+      color: #8e8e8e;
+    }
+    
+    p {
+      margin: 0;
+    }
+  }
+}
+
+section.about p {
+    display: inline-block;
+}

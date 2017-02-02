@@ -39,4 +39,4 @@ One of my concerns with LXC was having to rebuild from scratch all my containers
 Finally done?
 -------------
 
-Now that I have my containers moved to LXC and everything is running smoothly I feel like I am done with this project. It has been running for 2 months now and I have not though about it at all until I start to writing this post. I'd say thats a job well done. My set and forget server is done, for now. I think my next project will be to move it all to Arch linux.
+Now that I have my containers moved to LXC and everything is running smoothly I feel like I am done with this project. It has been running for 2 months now and I have not though about it at all until I started to writing this post. I'd say thats a job well done. My set and forget server is done, for now. I think my next project will be to move it all to Arch linux.

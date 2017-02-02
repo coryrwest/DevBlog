@@ -4,9 +4,10 @@
   "description": "My dev blog",
   "private": "true",
   "scripts": {
-      "build": "wintersmith build -c src/config.build.json",
-      "gh-pages": "wintersmith build -c src/config.ghpages.json",
-      "start": "wintersmith preview -c src/config.json"
+    "build": "wintersmith build -c src/config.build.json",
+    "dev": "wintersmith build -c src/config.json",
+    "gh-pages": "wintersmith build -c src/config.ghpages.json",
+    "start": "wintersmith preview -c src/config.json"
   },
   "dependencies": {
     "moment": "2.3.x",
@@ -16,9 +17,12 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^0.14.0",
     "grunt-ftp-push": "^0.4.3",
     "grunt-hashres": "^0.4.1",
-    "grunt-wintersmith": "0.0.2"
+    "grunt-sass": "^2.0.0",
+    "grunt-uncss": "^0.6.1",
+    "grunt-wintersmith-compile": "^0.1.1"
   }
 }

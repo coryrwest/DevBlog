@@ -30,7 +30,7 @@ The Joys of LXC
 
 When I first looked at LXC vs. Docker when I was ready to start this project I had no experience with containers and wanted something quick and easy. Docker seemed on the surface to be the right choice. After using it personally for so many months I have outgrown it. I took another look at LXC now that I understood the space a little more and I was pleasantly surprised. It had a none of the problems Docker had that I have encountered. It felt like a first class citizen on Linux. It was easy to use with my file structure and setting up your own containers from scratch was simpler than I thought.
 
-*  I've been running my LXC containers for 2 months now, and while that isn't very long to test reliablility, I have not had any crashes or hang ups.
+*  I've been running my LXC containers for 2 months now, and while that isn't very long to test reliablility, I have not had any crashes or hang ups. (August 2017 update: Everything has been running swimmingly for the past 8 months.)
 *  With LXC containers its as simple as setting an fstab mount point in the containers config for mounting external storage. Easy, done. Problem solved. 
 *  The filesystem for LXC containers reside in the /var/lib/lxc directory as plain text files. Unlike Docker with it's layered filesystem. It is trivial to move files to and from the LXC container or changing configs without having to ssh into the running container.
 

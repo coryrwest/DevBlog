@@ -1,7 +1,7 @@
 ---
 title: Rediculous Azure Worker Role Issues
 author: cory
-date: 2017-02-01 15:00
+date: 2017-04-01 15:00
 template: article.jade
 ---
 

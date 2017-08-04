@@ -101,7 +101,7 @@ Oh great, a permissions issue
 -----------------------------
 
 I hate dealing with permissions. I understand why they are important, but sometimes I just want to chmod everything to 777. 
-When I brought the system back up with the newly created mergerfs directory postgres would not boot. I spend 4 days 
+When I brought the system back up with the newly created mergerfs directory postgres would not boot. I spend 4 days, on and off, 
 trying to figure out what was wrong. I knew it had to be the new mergerfs directory because I keep the postgres data on 
 the data drive and the only thing that changed was mergerfs. For some reason that I never figured out, postgres could not 
 access some of the files in its data directory. Even though the postgres user was the owner and had full permissions to the 

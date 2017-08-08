@@ -7,6 +7,8 @@ template: article.jade
 
 I recently decided that I was going to try to set up one of the apps I maintain at work to allow for zero-downtime deploys. We currently have to wait until the middle of the night to update it because nobody uses it outside of buisness hours. We have a script that does this, but I creates a long feedback loop for the customer and us and I find annoying.
 
+<span class="more"></span>
+
 ## PM2
 
 We use PM2 to handle starting and stopping of our NodeJS apps. The feature I like the most is the auto-restart on failure and reboot of the machine. I previously used Forever, but found that PM2 has more features and works better. For some reason Forver had a memory leak, though I suspect is was because our app wasn't stopping correctly.

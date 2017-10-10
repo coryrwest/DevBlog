@@ -15,14 +15,18 @@
     "typogr": "0.5.x"
   },
   "devDependencies": {
+    "autoprefixer": "^7.1.5",
+    "cssnano": "^3.10.0",
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.7.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^0.14.0",
     "grunt-ftp-push": "^0.4.3",
     "grunt-hashres": "^0.4.1",
+    "grunt-postcss": "^0.9.0",
     "grunt-sass": "^2.0.0",
     "grunt-uncss": "^0.6.1",
-    "grunt-wintersmith-compile": "^0.1.1"
+    "grunt-wintersmith-compile": "^0.1.1",
+    "pixrem": "^4.0.1"
   }
 }

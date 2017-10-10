@@ -15,18 +15,6 @@ module.exports = function (grunt) {
 	            }
 	        }
 	    },
-		cssmin : {
-			target : {
-				files : [{
-						expand : true,
-						cwd : 'build/css',
-						src : ['*.css'],
-						dest : 'build/css',
-						ext : '.css'
-					}
-				]
-			}
-		},
 		wintersmith_compile: {
 			production: {
 				options: {
@@ -35,6 +23,19 @@ module.exports = function (grunt) {
 				}
 			}
 		},
+        postcss: {
+            options: {
+              map: true, // inline sourcemaps
+              processors: [
+                require('pixrem')(), // add fallbacks for rem units
+                require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+                require('cssnano')() // minify the result
+              ]
+            },
+            dist: {
+              src: 'build/css/*.css'
+            }
+        },
 		uncss: {
 		   dist: {
 		      options: {},
@@ -62,40 +63,23 @@ module.exports = function (grunt) {
 				dest : 'build/**/*.html'
 			}
 		}
-		// ftp_push : {
-		// 	build : {
-		// 		options : {
-		// 			host : 'westroppstudios.com',
-		// 			port : 21,
-		// 			dest : '/public_html/corywestropp.com/develop',
-		// 			authKey : 'westroppstudios.com'
-		// 		},
-		// 		files : [{
-		// 				expand : true,
-		// 				cwd : 'build',
-		// 				src : ['**/*']
-		// 			}
-		// 		]
-		// 	}
-		// }
 	});
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-wintersmith-compile');
 	grunt.loadNpmTasks('grunt-hashres');
-	//grunt.loadNpmTasks('grunt-ftp-push');
 	grunt.loadNpmTasks('grunt-sass');
 	grunt.loadNpmTasks('grunt-uncss');
+    grunt.loadNpmTasks('grunt-postcss');
 
 
-	grunt.registerTask('deploy', [
+	grunt.registerTask('default', [
 			'clean:build',
 			'sass',
-			'cssmin',
 			'wintersmith_compile',
 			'copy',
+			'postcss',
 			//'hashres:css'
-			//'ftp_push:build'
 		]);
 };

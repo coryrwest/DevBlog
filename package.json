@@ -5,9 +5,9 @@
   "private": "true",
   "scripts": {
     "build": "wintersmith build -c src/config.build.json",
-    "dev": "wintersmith build -c src/config.json",
+    "dev": "wintersmith build -c ./src/config.json",
     "gh-pages": "wintersmith build -c src/config.ghpages.json",
-    "start": "wintersmith preview -c src/config.json"
+    "start": "wintersmith preview -c ./src/config.json"
   },
   "dependencies": {
     "moment": "2.3.x",

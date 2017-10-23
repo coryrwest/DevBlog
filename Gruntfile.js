@@ -21,6 +21,12 @@ module.exports = function (grunt) {
 					config: 'config.build.json',
 					output: 'build'
 				}
+			},
+			develop: {
+				options: {
+					config: 'config.json',
+					output: 'build'
+				}
 			}
 		},
         postcss: {
@@ -77,7 +83,16 @@ module.exports = function (grunt) {
 	grunt.registerTask('default', [
 			'clean:build',
 			'sass',
-			'wintersmith_compile',
+			'wintersmith_compile:production',
+			'copy',
+			'postcss',
+			//'hashres:css'
+		]);
+
+	grunt.registerTask('dev', [
+			'clean:build',
+			'sass',
+			'wintersmith_compile:develop',
 			'copy',
 			'postcss',
 			//'hashres:css'

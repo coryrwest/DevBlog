@@ -1,7 +1,7 @@
 ---
 title: Netdata and Fluentd and LibreNMS with Pormetheus and PostgreSQL
 author: cory
-date: 2018-01-15 15:00
+date: 2018-03-15 15:00
 template: article.jade
 ---
 
@@ -24,6 +24,8 @@ difference between netdata, librenms, and fluentd. Why I use all of them.
 Netdata: system info, real time. More data than librenms.
 Librenms: mostly network info. Historical. Near realtime. 
 Fluentd: Application logs aggregation. Historical. Alerts.
+rsyslog: Built in log aggregation.
+GrayLog: UI and data analytics front end for rsyslog or Fluentd
 
 Store all historical data from all monitoring apps.
 Prometheus for time-series data.
